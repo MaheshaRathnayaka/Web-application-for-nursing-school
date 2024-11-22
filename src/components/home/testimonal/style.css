@@ -1,0 +1,55 @@
+.testimonal .items {
+    padding: 30px;
+    transition: 0.5s;
+  }
+.testimonal .img {
+    position: relative;
+  }
+.testimonal img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }  
+.testimonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #122ee3;
+    color: #fff;
+  }
+.testimonal .name {
+    margin: 25px;
+  }
+.testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+.testimonal .name span {
+    color: #122ee3;
+  }
+.testimonal p {
+    margin-top: 20px;
+    color: rgb(63, 61, 61);
+    transition: 0.5s;
+    text-align: justify;
+  }
+.testimonal .items:hover {
+    background-color: #122ee3;
+    color: #140a0a;
+    cursor: pointer;
+  }
+.testimonal .items:hover span,
+.testimonal .items:hover p {
+  color: #fff;
+}
+.testimonal .items:hover i {
+  background-color: #fff;
+  color: #122ee3;
+}
+
+.box1{
+  background-color: rgb(146, 238, 243);
+}
+
+
+
